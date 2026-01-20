@@ -1,5 +1,7 @@
-// this script shows an example how you can code custom Scaffold
-// for example Scaffold module does not allow you to use gravity blocks
+/*
+* this script shows an example how you can code custom Scaffold
+* for example Scaffold module does not allow you to use gravity blocks
+*/
 
 let pos = player.getPosition();
 // if current block is block below us

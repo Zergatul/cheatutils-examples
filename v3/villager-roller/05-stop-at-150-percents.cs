@@ -1,3 +1,7 @@
+/*
+* Villager Roller script that stops when price is at most 150% of the best possible price
+*/
+
 float percents = 100.0 * villagerRoller.getPrice() / villagerRoller.getMinPrice();
 
 string textcolor = "#FFFFFF";

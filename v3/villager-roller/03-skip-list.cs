@@ -1,3 +1,8 @@
+/*
+* Villager Roller script that stops on any book with best price and max level
+* Excluding enchantments from skip list
+*/
+
 float percents = 100.0 * villagerRoller.getPrice() / villagerRoller.getMinPrice();
 
 string textcolor = "#FFFFFF";

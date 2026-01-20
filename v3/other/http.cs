@@ -1,3 +1,7 @@
+/*
+* This script shows examples how to send HTTP requests
+*/
+
 void httpGetExample() {
     let request = HttpRequest.createBuilder()
         .get()

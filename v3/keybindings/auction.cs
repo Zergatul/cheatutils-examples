@@ -1,3 +1,8 @@
+/*
+* This script shows example how you can automate custom ingame auction
+* and automatically buy item based on your conditions
+*/
+
 while (!input.isAltDown()) {
     player.command("/auction");
     await containers.waitForOpen();

@@ -1,4 +1,7 @@
-// 1.21.7+ cheatutils, since 3.10.0 version
+/*
+* 1.21.7+ cheatutils, since 3.10.0 version
+* This script shows example how to use NBT API
+*/
 
 let id = player.target.getEntityId();
 if (id <= 0) {

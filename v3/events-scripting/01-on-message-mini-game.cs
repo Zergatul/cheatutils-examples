@@ -1,7 +1,9 @@
-// this script automatically solves ingame chat game
-// server sends message like this:
-// "[Chat game] Solve: 325 + 976"
-// and you are supposed to send result in the chat
+/*
+* this script automatically solves ingame chat game
+* server sends message like this:
+* "[Chat game] Solve: 325 + 976"
+* and you are supposed to send result in the chat
+*/
 
 events.onChatMessage(text => {
     string[] matches = text.getMatches("\\[Chat game\\] Solve: (\\d+) \\+ (\\d+)");

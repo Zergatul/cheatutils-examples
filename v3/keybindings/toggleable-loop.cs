@@ -1,5 +1,7 @@
-// this keybinding script allows you to run something in a loop
-// and use single key as toggle for this loop
+/*
+* this keybinding script allows you to run something in a loop
+* and use single key as toggle for this loop
+*/
 
 static boolean active = false;
 

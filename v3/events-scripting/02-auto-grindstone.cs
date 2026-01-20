@@ -1,5 +1,7 @@
-// this script automatically disenchants bows (for example from skeleton farm)
-// you have to open grindstone menu, and script manipulates with items automatically
+/*
+* this script automatically disenchants bows (for example from skeleton farm)
+* you have to open grindstone menu, and script manipulates with items automatically
+*/
 
 events.onTickEnd(() => {
     // attempt to disenchant once per 5 ticks

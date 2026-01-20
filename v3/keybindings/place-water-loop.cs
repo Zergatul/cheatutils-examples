@@ -1,7 +1,9 @@
-// 1.21.7+
-// Automatically places water source and removes it 1 second later
-// Requires water bucket on the hotbar
-// Requires 1 block below target coordinates, and visibility
+/*
+* 1.21.7+
+* Automatically places water source and removes it 1 second later
+* Requires water bucket on the hotbar
+* Requires 1 block below target coordinates, and visibility
+*/
 
 static int x = 8;
 static int y = -61;

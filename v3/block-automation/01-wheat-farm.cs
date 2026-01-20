@@ -1,5 +1,7 @@
-// this script automatically harvest wheat
-// and replants seeds
+/*
+* this script automatically harvest wheat
+* and replants seeds
+*/
 
 // uncomment below condition if you need delay
 /*if (game.getTick() % 5 != 0) {
