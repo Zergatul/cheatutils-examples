@@ -1,5 +1,6 @@
 /*
-* 1.21.7+ cheatutils, since 3.10.0 version
+* Minecraft: 1.21.7+
+* CheatUtils: 3.10.0+
 * This script shows example how to use NBT API
 */
 

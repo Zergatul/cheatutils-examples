@@ -1,8 +1,9 @@
 /*
-* this script automatically solves ingame chat game
-* server sends message like this:
+* Minecraft: 1.21+
+* CheatUtils: 3.3.0+
+* This script automatically solves ingame chat game. Server sends message like this:
 * "[Chat game] Solve: 325 + 976"
-* and you are supposed to send result in the chat
+* And you are supposed to send result in the chat.
 */
 
 events.onChatMessage(text => {

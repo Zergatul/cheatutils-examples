@@ -1,8 +1,11 @@
 /*
+* Minecraft: 1.21.3+
+* CheatUtils: 3.3.4+
+* Advanced Scripting: ON
 * This script shows examples how to send HTTP requests
 */
 
-void httpGetExample() {
+async void httpGetExample() {
     let request = HttpRequest.createBuilder()
         .get()
         .url("http://example.com")
@@ -12,7 +15,7 @@ void httpGetExample() {
     ui.systemMessage(response.body);
 }
 
-void httpPostExample() {
+async void httpPostExample() {
     let request = HttpRequest.createBuilder()
         .post("post-data")
         .url("http://example.com")

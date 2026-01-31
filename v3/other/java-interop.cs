@@ -1,9 +1,9 @@
 /*
 * Minecraft: 1.21.11+
 * CheatUtils: 3.14.12+
-* Doesn't work in Fabric 1.21.11 because obfuscation is still ON
-* Will work in Minecraft 26.1 for every mod loader
-* This script show example of using Java Interop to pull command suggestions from the server
+* Advanced Scripting: ON
+* This script shows example of using Java Interop to pull command suggestions from the server.
+* Doesn't work in Fabric prior to 26.1 because obfuscation is still ON.
 */
 
 typealias Minecraft = Java<net.minecraft.client.Minecraft>;

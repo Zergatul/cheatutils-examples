@@ -1,6 +1,8 @@
 /*
-* this script shows an example how you can code custom Scaffold
-* for example Scaffold module does not allow you to use gravity blocks
+* Minecraft: 1.21+
+* CheatUtils: 3.3.0+
+* This script shows an example how you can code custom Scaffold.
+* For example Scaffold module does not allow you to use gravity blocks.
 */
 
 let pos = player.getPosition();

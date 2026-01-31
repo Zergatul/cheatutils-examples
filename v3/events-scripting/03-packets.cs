@@ -1,7 +1,9 @@
 /*
-* cheatutils 3.11.2+, Advanced Scripting must be ON
-* below code works only in Forge/NeoForge
-* fabric still uses obfuscated class/method names at runtime
+* Minecraft: 1.21.7+
+* CheatUtils: 3.11.2+
+* Advanced Scripting: ON
+* This script shows example how to work with packets.
+* Doesn't work in Fabric prior to 26.1 because obfuscation is still ON.
 */
 
 events.onServerToClientPacket(event => {

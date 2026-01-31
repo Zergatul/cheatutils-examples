@@ -1,6 +1,7 @@
 /*
-* this script automatically harvest wheat
-* and replants seeds
+* Minecraft: 1.21+
+* CheatUtils: 3.3.0+
+* This script automatically harvest wheat and replants seeds
 */
 
 // uncomment below condition if you need delay
@@ -17,7 +18,7 @@ if (game.blocks.canBeReplaced(x, y, z)) {
     }
 }
 
-if (true && game.blocks.getId(x, y, z) == "minecraft:wheat") {
+if (game.blocks.getId(x, y, z) == "minecraft:wheat") {
     if (game.blocks.getIntegerTag(x, y, z, "age") == 7) {
         blockAutomation.breakBlock();
     }

@@ -14,7 +14,7 @@ jobs:
 
       - name: Combine script examples
         shell: pwsh
-        run: ./combine-files.ps1
+        run: ./build/combine-files.ps1
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4

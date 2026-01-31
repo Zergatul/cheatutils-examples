@@ -1,6 +1,8 @@
 /*
+* Minecraft: 1.21+
+* CheatUtils: 3.3.0+
 * This script shows example how you can automate custom ingame auction
-* and automatically buy item based on your conditions
+* and automatically buy item based on your conditions.
 */
 
 while (!input.isAltDown()) {

@@ -1,6 +1,8 @@
 /*
-* Villager Roller script with nice logging in the system chat
-* It stops on Mending book
+* Minecraft: 1.21+
+* CheatUtils: 3.3.0+
+* Villager Roller script with nice logging in the system chat.
+* It stops on Mending book.
 */
 
 float percents = 100.0 * villagerRoller.getPrice() / villagerRoller.getMinPrice();
