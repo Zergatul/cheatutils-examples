@@ -1,6 +1,4 @@
 /*
-* Minecraft: 1.21+
-* CheatUtils: 3.3.0+
 * Villager Roller script with nice logging in the system chat.
 * It stops on Mending book.
 */
@@ -19,8 +17,8 @@ if (!villagerRoller.isMaxLevel()) {
 ui.systemMessage("#0094FF", "[Roller]",
     textcolor,
     villagerRoller.getEnchantmentName() + " " +
-    villagerRoller.getLevel().toString() + " @ " +
-    villagerRoller.getPrice().toString() + " --- " +
+    villagerRoller.getLevel() + " @ " +
+    villagerRoller.getPrice() + " --- " +
     percents.toStandardString(0) + "%");
 
 if (villagerRoller.getEnchantmentId() == "minecraft:mending") {

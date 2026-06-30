@@ -1,6 +1,4 @@
 /*
-* Minecraft: 1.21+
-* CheatUtils: 3.3.0+
 * This script automatically disenchants bows (for example from skeleton farm).
 * You have to open grindstone menu, and script manipulates with items automatically.
 */

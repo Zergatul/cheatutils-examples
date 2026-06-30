@@ -1,6 +1,4 @@
 /*
-* Minecraft: 1.21+
-* CheatUtils: 3.3.0+
 * Villager Roller script that stops when price is at most 150% of the best possible price.
 */
 
@@ -18,8 +16,8 @@ if (!villagerRoller.isMaxLevel()) {
 ui.systemMessage("#0094FF", "[Roller]",
     textcolor,
     villagerRoller.getEnchantmentName() + " " +
-    villagerRoller.getLevel().toString() + " @ " +
-    villagerRoller.getPrice().toString() + " --- " +
+    villagerRoller.getLevel() + " @ " +
+    villagerRoller.getPrice() + " --- " +
     percents.toStandardString(0) + "%");
 
 string[] wanted = new string[] {

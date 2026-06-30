@@ -1,6 +1,4 @@
 /*
-* Minecraft: 1.21.11+
-* CheatUtils: 3.15.1+
 * This script automatically equips the best armor in corresponding inventory slot once it appears in your inventory.
 */
 

@@ -1,6 +1,4 @@
 /*
-* Minecraft: 1.21.11+
-* CheatUtils: 3.15.5+
 * This script shows structure coordinates stored in different maps:
 * burried treasure, ocean monument, woodland mansion, etc
 * It add an entry to Status Overlay only when you hold map in the main hand.

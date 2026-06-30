@@ -1,6 +1,4 @@
 /*
-* Minecraft: 1.21.7+
-* CheatUtils: 3.10.0+
 * This script shows example how to use NBT API
 */
 
@@ -19,8 +17,7 @@ ui.systemMessage("Health = " + nbt["Health"].getIntOr(-999));
 
 // reading nested object
 let pos = nbt["Pos"];
-if (pos is ListTag) {
-    let list = pos as ListTag;
+if (pos is ListTag list) {
     ui.systemMessage("Pos: " + 
         "X=" + list[0].getFloatOr(-1) + " " +
         "Y=" + list[1].getFloatOr(-1) + " " +

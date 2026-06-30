@@ -1,6 +1,4 @@
 /*
-* Minecraft: 1.21.7+
-* CheatUtils: 3.13.0+
 * Automatically places water source and removes it 1 second later.
 * Requires water bucket on the hotbar.
 * Requires 1 block below target coordinates, and visibility.

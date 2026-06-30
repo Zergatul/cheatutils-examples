@@ -1,6 +1,4 @@
 /*
-* Minecraft: 1.21+
-* CheatUtils: 3.3.0+
 * This keybinding script allows you to run something in a loop and use single key as toggle for this loop.
 */
 

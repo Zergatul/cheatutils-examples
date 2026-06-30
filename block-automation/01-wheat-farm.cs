@@ -1,7 +1,5 @@
 /*
-* Minecraft: 1.21+
-* CheatUtils: 3.3.0+
-* This script automatically harvest wheat and replants seeds
+* This script automatically harvests wheat and replants seeds
 */
 
 // uncomment below condition if you need delay

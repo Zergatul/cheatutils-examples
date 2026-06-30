@@ -1,7 +1,4 @@
 /*
-* Minecraft: 1.21.3+
-* CheatUtils: 3.3.4+
-* Advanced Scripting: ON
 * This script shows examples how to send HTTP requests
 */
 

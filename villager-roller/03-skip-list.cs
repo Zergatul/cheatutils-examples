@@ -1,8 +1,6 @@
 /*
-* Minecraft: 1.21+
-* CheatUtils: 3.3.0+
 * Villager Roller script that stops on any book with best price and max level.
-* It searches only for enchantments from wanted list.
+* Excluding enchantments from skip list.
 */
 
 float percents = 100.0 * villagerRoller.getPrice() / villagerRoller.getMinPrice();
@@ -19,27 +17,19 @@ if (!villagerRoller.isMaxLevel()) {
 ui.systemMessage("#0094FF", "[Roller]",
     textcolor,
     villagerRoller.getEnchantmentName() + " " +
-    villagerRoller.getLevel().toString() + " @ " +
-    villagerRoller.getPrice().toString() + " --- " +
+    villagerRoller.getLevel() + " @ " +
+    villagerRoller.getPrice() + " --- " +
     percents.toStandardString(0) + "%");
 
-string[] wanted = new string[] {
-    "minecraft:protection",
-    "minecraft:sharpness",
-    "minecraft:feather_falling",
-    "minecraft:unbreaking"
+string[] skip = new string[] {
+    "minecraft:binding_curse",
+    "minecraft:aqua_affinity"
 };
 
-boolean found = false;
-foreach (string id in wanted) {
+foreach (string id in skip) {
     if (villagerRoller.getEnchantmentId() == id) {
-        found = true;
-        break;
+        return;
     }
-}
-
-if (!found) {
-    return;
 }
 
 if (villagerRoller.isBestPrice() && villagerRoller.isMaxLevel()) {
